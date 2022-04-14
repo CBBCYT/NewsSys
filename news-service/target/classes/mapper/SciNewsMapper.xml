@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 此处与接口类地址对应 -->
+<mapper namespace="com.news.mapper.SciNewsMapper">
+
+    <resultMap id="NewsResultMap" type="com.news.pojo.SciNews">
+        <result column="user_id" property="userId" />
+        <result column="gmt_create" property="gmtCreate" />
+        <result column="gmt_update" property="gmtUpdate" />
+        <result column="create_by" property="createBy" />
+        <result column="update_by" property="updateBy" />
+    </resultMap>
+
+
+    <select id="getNewsByTitle" resultMap="NewsResultMap">
+        select * from sci_news where title like #{title}
+    </select>
+
+    <select id="getNewsById" resultMap="NewsResultMap">
+        select * from sci_news where id=#{id}
+    </select>
+
+<!--    private int id;
+    private String title;
+    private String userId;
+    private String link;
+    private String cover;
+    private int downloads;
+    private String gmtCreate;
+    private String createBy;
+    private String gmtUpdate;
+    private String updateBy;-->
+    <insert id="insert">
+        insert into sci_news values(#{sciNews.id},#{sciNews.title},#{sciNews.type},#{sciNews.userId},#{sciNews.link},#{sciNews.cover},#{sciNews.downloads},#{sciNews.gmtCreate},#{sciNews.createBy},#{sciNews.gmtUpdate},#{sciNews.updateBy})
+    </insert>
+</mapper>
