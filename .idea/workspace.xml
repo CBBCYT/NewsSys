@@ -5,13 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fa90de3-bd1d-4100-9380-d984b5a725c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/resources/com/bluersw/jenkins/libraries/default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/src/com/bluersw/jenkins/libraries/StepFactory.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/src/com/bluersw/jenkins/libraries/model/Command.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/src/com/bluersw/jenkins/libraries/model/Constants.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/src/com/bluersw/jenkins/libraries/model/LogContainer.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/src/com/bluersw/jenkins/libraries/model/LogType.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/src/com/bluersw/jenkins/libraries/model/Step.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/src/com/bluersw/jenkins/libraries/model/StepType.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/src/com/bluersw/jenkins/libraries/model/Steps.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/src/com/bluersw/jenkins/libraries/utils/HttpRequest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/src/com/bluersw/jenkins/libraries/utils/JSONExtend.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/agentServer.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/bindBuildParameter.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/codeCoverageJest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/codeCoverageLlvmCov.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/codeCoverageMSBuild.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/commandIf.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/commandWithCredentials.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/jenkinsPlugInJacoco.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/jenkinsPlugInJunit.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/jenkinsVariable.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/k8sCluster.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/runStatusScript.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/runStdoutScript.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/runWrapper.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/runtimeVariable.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/shared-libraries/shared-library/vars/sonarQube.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/news-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +80,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/ideaproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jenkins/shared-libraries" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -71,11 +93,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\32692\IdeaProjects\NewsSys\jenkins\shared-libraries" />
       <recent name="C:\Users\32692\IdeaProjects\NewsSys\gateway\src\main\resources" />
       <recent name="C:\Users\32692\IdeaProjects\NewsSys\user-service\src\main\resources" />
       <recent name="C:\Users\32692\IdeaProjects\NewsSys\user-service\src\main\resources\mapper" />
       <recent name="C:\Users\32692\IdeaProjects\NewsSys\user-service\src\main\java\com\user" />
-      <recent name="C:\Users\32692\IdeaProjects\NewsSys\news-service\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\32692\IdeaProjects\NewsSys\news-service\src\main\resources\mapper" />
@@ -185,7 +207,9 @@
       <workItem from="1658645783313" duration="5744000" />
       <workItem from="1659188050117" duration="1220000" />
       <workItem from="1681053558649" duration="1251000" />
-      <workItem from="1681059146932" duration="329000" />
+      <workItem from="1681059146932" duration="1611000" />
+      <workItem from="1681093710981" duration="341000" />
+      <workItem from="1681220765951" duration="1501000" />
     </task>
     <servers />
   </component>
