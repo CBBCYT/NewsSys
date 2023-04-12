@@ -14,13 +14,6 @@
         "输出Maven版本": "mvn -v"
       }
     },
-    "检查SonarScanner环境": {
-      "Type": "COMMAND_STDOUT",
-      "Success-IndexOf": "SonarScanner 4.4.0.2170",
-      "Script": {
-        "输出SonarScanner版本": "sonar-scanner -v"
-      }
-    },
     "绑定构建参数": {
       "Type": "BUILD_PARAMETER_DROP_DOWN_MENU",
       "StepsName": "部署",
