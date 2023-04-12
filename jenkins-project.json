@@ -28,11 +28,7 @@
       }
     }
   },
-  "代码检查": {
-    "执行SQ代码扫描": {
-      "Type": "SONAR_QUBE"
-    }
-  },
+
   "编译构建": {
     "执行Maven构建": {
       "Type": "COMMAND_STATUS",
