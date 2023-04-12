@@ -2,14 +2,14 @@
   "初始化": {
     "检查Java环境": {
       "Type": "COMMAND_STDOUT",
-      "Success-IndexOf": "java version \"1.8.0_211\"",
+      "Success-IndexOf": "java version \"1.8.0_361\"",
       "Script": {
         "输出Java版本": "java -version 2>&1"
       }
     },
     "检查Maven环境": {
       "Type": "COMMAND_STDOUT",
-      "Success-IndexOf": "Apache Maven 3.6.3",
+      "Success-IndexOf": "Apache Maven 3.6.1",
       "Script": {
         "输出Maven版本": "mvn -v"
       }
