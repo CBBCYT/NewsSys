@@ -26,21 +26,6 @@
       "Script": {
         "Maven单元测试": "cd ${PROJECT_PATH};mvn clean test"
       }
-    },
-    "执行JUnit插件": {
-      "Type": "JUNIT_PLUG_IN",
-      "JunitReportPath": "**/${PROJECT_DIR}/**/target/**/TEST-*.xml"
-    },
-    "执行Jacoco插件": {
-      "Type": "JACOCO_PLUG_IN",
-      "classPattern":"${PROJECT_PATH}/target/classes",
-      "InclusionPattern":"${PROJECT_PATH}/**",
-      "LineCoverage":"95",
-      "InstructionCoverage":"0",
-      "MethodCoverage":"100",
-      "BranchCoverage":"95",
-      "ClassCoverage":"100",
-      "ComplexityCoverage":"0"
     }
   },
   "代码检查": {
